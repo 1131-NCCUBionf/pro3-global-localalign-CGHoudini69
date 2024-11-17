@@ -73,4 +73,5 @@ The correct answer gets 10 points for each testing data.
 ## References
 
 https://chatgpt.com/share/6739c0ac-3000-8003-9c78-f981c93b9e9c
+
 I asked ChatGPT to help organize the assignment requirements and draft a prototype program, which I understanded and modified on my own. The above is the record of my conversation with ChatGPT.
