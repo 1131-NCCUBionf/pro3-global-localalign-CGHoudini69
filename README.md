@@ -1,6 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pWmxMLzQ)
+
 # pro3.global|local-Aln
-<your name + student ID>
+
+林祐祥 113753114
 
 ## Description
 
@@ -9,6 +11,7 @@
 * In this program, library Biostrings is only used to parse input fasta file.
 * Packages you can use: numpy, pandas, Bio
 * You should write a program with a function named alignment, ie.
+
 ```
 def alignment(input_path, score_path, output_path, aln, gap):
     .
@@ -16,8 +19,9 @@ def alignment(input_path, score_path, output_path, aln, gap):
     .
     .
 ```
-* If there is more than one local alignment with the same highest score, you should output local alignments with the maximum length. 
-* If there is more than one local alignment with the same highest score, you should output those local alignments in string sequential order according to protein1 and then protein2, i.e., 
+
+* If there is more than one local alignment with the same highest score, you should output local alignments with the maximum length.
+* If there is more than one local alignment with the same highest score, you should output those local alignments in string sequential order according to protein1 and then protein2, i.e.,
   ```
   >protein1
   local alignment1
@@ -28,6 +32,7 @@ def alignment(input_path, score_path, output_path, aln, gap):
   >protein2
   local alignment2
   ```
+
 ## Parameters
 
 * input: .fasta file (ex. test_global.fasta)
@@ -45,10 +50,10 @@ def alignment(input_path, score_path, output_path, aln, gap):
 * result_global.fasta: You should output your alignment in FASTA format.
 * test_local.fasta
 * result_local.fasta
+
 ## Command
 
 Executing your code with the following command.
-
 
 ```Python
 alignment("examples/test_global.fasta", "examples/pam250.txt", "examples/result_global.fasta", "global", -10)
@@ -61,22 +66,11 @@ alignment("examples/test_local.fasta", "examples/pam100.txt", "examples/result_l
 
 The correct answer gets 10 points for each testing data.
 
-
-
 ### Penalty
 
 * High code similarity to others: YOUR SCORE = 0
 
 ## References
-Please provide the code along with its reference. For example, you can cite it as: ```# ChatGPT, respond to “your prompt,” on February 16, 2023```. Below is an example of a reference format summarizing the use of ChatGPT for R programming
 
->You are the R Language expert.
->Please help me to write a function called “k_fold”.
->Using a given dataset to train the random forest model, and using the k-fold cross-validation to evaluate the best model parameters. Here is the instruction for the function requirements:\
->Function name: k_fold\
->Function parameters:
-
-
-
-
-
+https://chatgpt.com/share/6739c0ac-3000-8003-9c78-f981c93b9e9c
+I asked ChatGPT to help organize the assignment requirements and draft a prototype program, which I understanded and modified on my own. The above is the record of my conversation with ChatGPT.
